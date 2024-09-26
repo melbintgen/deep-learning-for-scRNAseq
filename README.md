@@ -33,7 +33,7 @@ import sys
 
 Typically, it's better practice to perform conda installations when using conda environments as we are, but if we don't have too many dependencies we get away with pip installations.
 
-* More details on the packages:
+More details on the packages:
 - [scvi-tools](https://scvi-tools.org/)
 - [scanpy](https://scanpy.readthedocs.io/en/stable/)
 
