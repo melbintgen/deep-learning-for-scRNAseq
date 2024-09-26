@@ -31,7 +31,7 @@ import sys
 !{sys.executable} -m pip install scanpy scvi-tools seaborn scikit-misc igraph leidenalg
 ```
 
-* Typically, it's better practice to perform conda installations when using conda environments as we are, but if we don't have too many dependencies we get away with pip installations.
+Typically, it's better practice to perform conda installations when using conda environments as we are, but if we don't have too many dependencies we get away with pip installations.
 
 * More details on the packages:
 - [scvi-tools](https://scvi-tools.org/)
