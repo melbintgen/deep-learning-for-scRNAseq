@@ -9,7 +9,7 @@
 
 ### Description
 
-This repository includes material for a hands-on workshop 'Introduction to deep learning for scRNA-seq'. We show you how to use SCVI-tools to analysis your own scRNA-seq data.
+This repository includes material for a hands-on workshop 'Introduction to deep learning for scRNA-seq'. We show you how to use scvi-tools to analysis your own scRNA-seq data.
 
 ###  Installing Anaconda navigator to set up jupyter notebook environment 
 (you can skip this if you already can run jupyter notebooks in an environment)
@@ -23,12 +23,25 @@ This repository includes material for a hands-on workshop 'Introduction to deep 
     - Click on `launch` under the  jupyter notebooks icon and navigate to this workshop notebook and proceed to install the packages.
 
 ### Installing scvi-tools and some other packages
-Open your Jupyernotebook and run these code:
+Open your jupyer notebook and run these code:
+(Only need to run this once, installs the necessary packages,  this will take afew minutes)
 
 ```python
-# Only need to run this once, installs the necessary packages,  this will take afew minutes
 import sys
 !{sys.executable} -m pip install scanpy scvi-tools seaborn scikit-misc igraph leidenalg
 ```
 
 * Typically, it's better practice to perform conda installations when using conda environments as we are, but if we don't have too many dependencies we get away with pip installations.
+
+* More details on the packages:
+- [scvi-tools](https://scvi-tools.org/)
+- [scanpy](https://scanpy.readthedocs.io/en/stable/)
+
+### Material
+[Click here](https://github.com/melbintgen/deep-learning-for-scRNAseq/blob/main/intro_to_scVI_tools.ipynb) to access or download the jupyter notebook for this workshop.
+
+### Data
+Datasets are from the scvi-tools package.
+
+### Solution
+[Click here](https://github.com/melbintgen/deep-learning-for-scRNAseq/blob/main/intro_to_scVI_tools_with_solutions.ipynb) to access the solution.
